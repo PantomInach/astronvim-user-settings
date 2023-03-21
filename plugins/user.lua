@@ -38,5 +38,13 @@ return {
         },
       })
     end,
+  },
+  {
+    'jakewvincent/texmagic.nvim',
+    config = function()
+      require('texmagic').setup({
+        -- Config goes here; leave blank for defaults
+      })
+    end
   }
 }
