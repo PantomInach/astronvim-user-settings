@@ -10,33 +10,60 @@ return {
   --   end,
   -- },
   {
-    'decaycs/decay.nvim',
-    as = 'decay',
+    "decaycs/decay.nvim",
+    as = "decay",
     config = function()
-      require('decay').setup({
-        style = 'normal',
+      require("decay").setup {
+        style = "normal",
         nvim_tree = {
-          contrast = true -- or false to disable tree contrast,
+          contrast = true, -- or false to disable tree contrast,
         },
-      })
-      require('decay').setup({
-        style = 'dark',
+      }
+      require("decay").setup {
+        style = "dark",
         nvim_tree = {
-          contrast = true -- or false to disable tree contrast,
+          contrast = true, -- or false to disable tree contrast,
         },
-      })
-      require('decay').setup({
-        style = 'light',
+      }
+      require("decay").setup {
+        style = "light",
         nvim_tree = {
-          contrast = true -- or false to disable tree contrast,
+          contrast = true, -- or false to disable tree contrast,
         },
-      })
-      require('decay').setup({
-        style = 'decayce',
+      }
+      require("decay").setup {
+        style = "decayce",
         nvim_tree = {
-          contrast = true -- or false to disable tree contrast,
+          contrast = true, -- or false to disable tree contrast,
         },
-      })
+      }
     end,
-  }
+  },
+  -- {
+  --   'jakewvincent/texmagic.nvim',
+  --   config = function()
+  --     require('texmagic').setup({
+  --       -- Config goes here; leave blank for defaults
+  --       engines = {
+  --         pdflatex = {
+  --           executable = "latexmk",
+  --           args = {
+  --             "-pdflatex",
+  --             "-interaction=nonstopmode",
+  --             "-synctex=1",
+  --             "-outdir=.build",
+  --             "-pv",
+  --             "%f"
+  --           },
+  --           iscontinuous = true
+  --         },
+  --       }
+  --     })
+  --   end
+  -- },
+  -- {
+  --   'lervag/vimtex',
+  --   config = function()
+  --   end
+  -- }
 }
