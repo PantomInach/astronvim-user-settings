@@ -14,7 +14,7 @@ return {
     as = "decay",
     config = function()
       require("decay").setup {
-        style = "normal",
+        style = "default",
         nvim_tree = {
           contrast = true, -- or false to disable tree contrast,
         },
@@ -26,7 +26,7 @@ return {
         },
       }
       require("decay").setup {
-        style = "light",
+        style = "cosmic",
         nvim_tree = {
           contrast = true, -- or false to disable tree contrast,
         },
