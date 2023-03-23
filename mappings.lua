@@ -35,6 +35,7 @@ return {
     ["<leader>m"] = { desc = "󱁤 Compiler" },
     ["<leader>mt"] = { "<cmd>TexlabBuild<cr>", desc = "LaTeX" },
     ["<leader>mf"] = { "<cmd>TexlabForward<cr>", desc = "Forward Search" },
+    ["<leader>mg"] = { "<cmd>Glow<cr>", desc = "Markdown Glow" },
   },
   t = {
     -- setting a mapping to false will disable it
