@@ -1,6 +1,18 @@
 # AstroNvim User Configuration Example
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim).
+
+## Changes
+
+* Added support for `latex` with automatic compiling and forward searching
+* Automatic installing of some lsp, linter, dap and formatter with treesitter installation
+* Switching buffer with `Shift + h` and `Shift + l`
+* [Glow](https://github.com/charmbracelet/glow) support in nvim
+* Colorschemes: `decay`, `catppuccin` with `dark-decay` as default
+
+## Customization 
+
+See the [astrocumminity](https://github.com/AstroNvim/astrocommunity) plugins for more add-ons for your nvim config.
 
 ## 🛠️ Installation
 
@@ -16,12 +28,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 ```shell
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
-
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
 
 #### Clone the repository
 
