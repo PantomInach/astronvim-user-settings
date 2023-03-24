@@ -35,10 +35,16 @@ return {
     ["<leader>m"] = { desc = "󱁤 Compiler" },
     ["<leader>mt"] = { "<cmd>TexlabBuild<cr>", desc = "LaTeX" },
     ["<leader>mf"] = { "<cmd>TexlabForward<cr>", desc = "Forward Search" },
-    ["<leader>mg"] = { "<cmd>Glow<cr>", desc = "Markdown Glow" },
+    ["<leader>G"] = { "<cmd>Glow<cr>", desc = "Markdown Glow" },
+    -- ["<leader>H"] = { "<cmd>HopChar2", desc = "Hop to 2 chars" }
+    ["<leader>h"] = { desc = "Hop" },
+    ["<leader>hl"] = { ":HopLineStart<cr>", desc = "Hop Line Start" },
+    ["<leader>hp"] = { ":HopPattern<cr>", desc = "Hop Pattern" },
+    ["<leader>hw"] = { ":HopWord<cr>", desc = "Hop Word" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    ["<leader>h"] = false,
   },
 }
