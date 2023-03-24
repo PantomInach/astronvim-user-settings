@@ -5,6 +5,7 @@ return {
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true,         -- sets vim.opt.number
     spell = true,          -- sets vim.opt.spell
+    spelllang = "en,de",
     signcolumn = "auto",   -- sets vim.opt.signcolumn to auto
     wrap = false,          -- sets vim.opt.wrap
   },

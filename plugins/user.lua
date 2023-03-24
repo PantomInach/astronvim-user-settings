@@ -39,31 +39,19 @@ return {
       }
     end,
   },
-  -- {
-  --   'jakewvincent/texmagic.nvim',
-  --   config = function()
-  --     require('texmagic').setup({
-  --       -- Config goes here; leave blank for defaults
-  --       engines = {
-  --         pdflatex = {
-  --           executable = "latexmk",
-  --           args = {
-  --             "-pdflatex",
-  --             "-interaction=nonstopmode",
-  --             "-synctex=1",
-  --             "-outdir=.build",
-  --             "-pv",
-  --             "%f"
-  --           },
-  --           iscontinuous = true
-  --         },
-  --       }
-  --     })
-  --   end
-  -- },
-  -- {
-  --   'lervag/vimtex',
-  --   config = function()
-  --   end
-  -- }
+  {
+    "phaazon/hop.nvim",
+    lazy = false,
+    branch = "v2", -- optional but strongly recommended
+    config = function()
+      -- you can configure Hop the way you like here; see :h hop-config
+      require("hop").setup {
+        keys = "etovxqpdygfblzhckisuran",
+        quit_key = "<SPC>",
+        jump_on_sole_occurence = false,
+        case_sensitive = false,
+        multi_window = false,
+      }
+    end,
+  },
 }
