@@ -41,6 +41,9 @@ git clone https://github.com/PantomInach/astronvim-user-settings ~/.config/nvim/
 
 #### Install german spelling files
 
+When these files are not present an error will be shown every time a file is opened.
+Either use the command below or remove `de` from the [options.lua](https://github.com/PantomInach/astronvim-user-settings/blob/main/options.lua)'s `spelllang` variable.
+
 ```shell
 sudo cp ~/.config/nvim/lua/user/spell/* /usr/share/nvim/runtime/spell
 ```
