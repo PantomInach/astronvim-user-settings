@@ -4,11 +4,15 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## Changes
 
-* Added support for `latex` with automatic compiling and forward searching
-* Automatic installing of some lsp, linter, dap and formatter with treesitter installation
-* Switching buffer with `Shift + h` and `Shift + l`
-* [Glow](https://github.com/charmbracelet/glow) support in nvim
+* `Latex` support with 
+  - [ltex](https://github.com/vigoux/ltex-ls.nvim) as a general lsp
+  - [texlab](https://github.com/latex-lsp/texlab) for compiling `<Space> + m + l` and forward searching `<Space> + m + f`
+* [Glow](https://github.com/charmbracelet/glow) support in nvim with `<Space> + G`
+* [Hop](https://github.com/phaazon/hop.nvim) motions with `<Space> + h + ...`
+* Switching buffer with `<Shift> + h` and `<Shift> + l`
 * Colorschemes: `decay`, `catppuccin` with `dark-decay` as default
+* German language files
+* Automatic installing of some lsp, linter, dap and formatter with treesitter installation
 
 ## Customization 
 
