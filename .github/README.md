@@ -35,6 +35,12 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 git clone https://github.com/PantomInach/astronvim-user-settings ~/.config/nvim/lua/user
 ```
 
+#### Install german spelling files
+
+```shell
+sudo cp ~/.config/nvim/lua/user/spell/* /usr/share/nvim/runtime/spell
+```
+
 #### Start Neovim
 
 ```shell
