@@ -65,4 +65,8 @@ return {
       }
     end,
   },
+  {
+    "mbbill/undotree",
+    lazy = false,
+  },
 }
