@@ -13,14 +13,15 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 * Colorschemes: `decay`, `catppuccin` with `dark-decay` as default
 * German language files
 * Automatic installing of some lsp, linter, dap and formatter with treesitter installation
-* [Undotree](https://github.com/mbbill/undotree) with keybinding `<Space> + u`
+* [Undotree](https://github.com/mbbill/undotree) with keybinding `<Space> + U`
 * [Treesitter-Context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 * [Harpoon](https://github.com/ThePrimeagen/harpoon) with keybindings
   + `Space + h + a` add file to harpoon
   + `Space + h + o` open quick menu
   + `Space + h + h` Go to previous mark
   + `Space + h + l` Go to next mark
-  + `<C-h>`, `<C-j>`, `<C-k>`, `<C-l>` go to marked file 1 to 4
+  + `Space + h + c` Clear all marks
+  + `Space + 1`, `Space + 2`, ..., `Space + 0` go to marked file 1 to 10
 * [Fugitive](https://github.com/tpope/vim-fugitive) git client
   + `Space + g + g` opens fugitive git client
   + `Space + p` in fugitive pushes commits
