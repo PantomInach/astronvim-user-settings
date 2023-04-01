@@ -21,6 +21,7 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
   + `Space + h + h` Go to previous mark
   + `Space + h + l` Go to next mark
   + `<C-h>`, `<C-j>`, `<C-k>`, `<C-l>` go to marked file 1 to 4
+* [Fugitive](https://github.com/tpope/vim-fugitive) git client. Open with `<Space> + g + g`
 
 ## Customization 
 

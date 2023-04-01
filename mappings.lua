@@ -47,6 +47,8 @@ return {
     ["<C-j>"] = { function() harpui.nav_file(2) end, desc = "Harpoon file 2" },
     ["<C-k>"] = { function() harpui.nav_file(3) end, desc = "Harpoon file 3" },
     ["<C-l>"] = { function() harpui.nav_file(4) end, desc = "Harpoon file 4" },
+    -- tpope/fugitive bindings
+    ["<leader>gg"] = { "<cmd>Git<cr>", desc = "Fugitive client" },
     -- Rebind UI keybindings to start with U
     ["<leader>U"] = { desc = " UI" },
     ["<leader>Ua"] = { ui.toggle_autopairs, desc = "Toggle autopairs" },
@@ -94,7 +96,7 @@ return {
     ["<leader>fa"] = false,
     ["<leader>fb"] = false,
     ["<leader>fC"] = false,
-    ["<leader>fF"] = false,
+    -- ["<leader>fF"] = false,
     ["<leader>fh"] = false,
     ["<leader>fk"] = false,
     ["<leader>fm"] = false,
@@ -102,7 +104,7 @@ return {
     ["<leader>fo"] = false,
     ["<leader>fr"] = false,
     ["<leader>ft"] = false,
-    ["<leader>fW"] = false,
+    -- ["<leader>fW"] = false,
     ["<leader>f'"] = false,
     -- Remove Buffer bindings
     ["<leader>b"] = false,

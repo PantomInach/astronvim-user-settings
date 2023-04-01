@@ -73,4 +73,8 @@ return {
     "theprimeagen/harpoon",
     lazy = false,
   },
+  {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
 }
