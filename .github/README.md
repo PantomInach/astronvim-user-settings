@@ -15,6 +15,12 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 * Automatic installing of some lsp, linter, dap and formatter with treesitter installation
 * [Undotree](https://github.com/mbbill/undotree) with keybinding `<Space> + u`
 * [Treesitter-Context](https://github.com/nvim-treesitter/nvim-treesitter-context)
+* [Harpoon](https://github.com/ThePrimeagen/harpoon) with keybindings
+  + `Space + h ü a` add file to harpoon
+  + `Space + h + o` open quick menu
+  + `Space + h + h` Go to previous mark
+  + `Space + h + l` Go to next mark
+  + `<C-h>`, `<C-j>`, `<C-k>`, `<C-l>` go to marked file 1 to 4
 
 ## Customization 
 

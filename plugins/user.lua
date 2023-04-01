@@ -69,4 +69,8 @@ return {
     "mbbill/undotree",
     lazy = false,
   },
+  {
+    "theprimeagen/harpoon",
+    lazy = false,
+  },
 }

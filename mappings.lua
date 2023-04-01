@@ -1,4 +1,6 @@
 local ui = require "astronvim.utils.ui"
+local mark = require "harpoon.ui"
+local harpui = require "harpoon.ui"
 -- Mapping data with "desc" stored directly by vim.keymap.set().
 --
 -- Please use this mappings table to set keyboard mapping since this is the
@@ -33,8 +35,18 @@ return {
       function() require("astronvim.utils.buffer").close_all(true) end,
       desc = "Close all buffers except current",
     },
-    -- Bind mbbill/undotree
+    -- mbbill/undotree bindings
     ["<leader>u"] = { ":UndotreeToggle<CR>", desc = "Toggle Undotree" },
+    -- ThePrimeagen/harpoon bindings
+    ["<leader>h"] = { desc = "⇁ Harpoon" },
+    ["<leader>ha"] = { function() require("harpoon.mark").add_file() end, desc = "Add file" },
+    ["<leader>ho"] = { function() harpui.toggle_quick_menu() end, desc = "Open quick menu" },
+    ["<leader>hh"] = { function() mark.nav_prev() end, desc = "Open previous file." },
+    ["<leader>hl"] = { function() mark.nav_next() end, desc = "Open next file." },
+    ["<C-h>"] = { function() harpui.nav_file(1) end, desc = "Harpoon file 1" },
+    ["<C-j>"] = { function() harpui.nav_file(2) end, desc = "Harpoon file 2" },
+    ["<C-k>"] = { function() harpui.nav_file(3) end, desc = "Harpoon file 3" },
+    ["<C-l>"] = { function() harpui.nav_file(4) end, desc = "Harpoon file 4" },
     -- Rebind UI keybindings to start with U
     ["<leader>U"] = { desc = " UI" },
     ["<leader>Ua"] = { ui.toggle_autopairs, desc = "Toggle autopairs" },
